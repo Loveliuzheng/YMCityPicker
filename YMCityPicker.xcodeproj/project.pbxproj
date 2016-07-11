@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B29C898B1A25BCA000807436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C898A1A25BCA000807436 /* main.m */; };
+		B29C898E1A25BCA000807436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C898D1A25BCA000807436 /* AppDelegate.m */; };
+		B29C89911A25BCA000807436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C89901A25BCA000807436 /* ViewController.m */; };
+		B29C89941A25BCA000807436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29C89921A25BCA000807436 /* Main.storyboard */; };
+		B29C89961A25BCA000807436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29C89951A25BCA000807436 /* Images.xcassets */; };
+		B29C89991A25BCA000807436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29C89971A25BCA000807436 /* LaunchScreen.xib */; };
+		B29C89A51A25BCA000807436 /* YMCityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C89A41A25BCA000807436 /* YMCityPickerTests.m */; };
+		B29C89B01A25BD4E00807436 /* YMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C89AF1A25BD4E00807436 /* YMUtils.m */; };
+		B29C89B21A25C67C00807436 /* zh_CN.json in Resources */ = {isa = PBXBuildFile; fileRef = B29C89B11A25C67C00807436 /* zh_CN.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B29C899F1A25BCA000807436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29C897D1A25BCA000807436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29C89841A25BCA000807436;
+			remoteInfo = YMCityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B29C89851A25BCA000807436 /* YMCityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMCityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29C89891A25BCA000807436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29C898A1A25BCA000807436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B29C898C1A25BCA000807436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B29C898D1A25BCA000807436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B29C898F1A25BCA000807436 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B29C89901A25BCA000807436 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B29C89931A25BCA000807436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29C89951A25BCA000807436 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B29C89981A25BCA000807436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B29C899E1A25BCA000807436 /* YMCityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMCityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29C89A31A25BCA000807436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29C89A41A25BCA000807436 /* YMCityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCityPickerTests.m; sourceTree = "<group>"; };
+		B29C89AE1A25BD4E00807436 /* YMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMUtils.h; sourceTree = "<group>"; };
+		B29C89AF1A25BD4E00807436 /* YMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMUtils.m; sourceTree = "<group>"; };
+		B29C89B11A25C67C00807436 /* zh_CN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zh_CN.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29C89821A25BCA000807436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C899B1A25BCA000807436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29C897C1A25BCA000807436 = {
+			isa = PBXGroup;
+			children = (
+				B29C89871A25BCA000807436 /* YMCityPicker */,
+				B29C89A11A25BCA000807436 /* YMCityPickerTests */,
+				B29C89861A25BCA000807436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B29C89861A25BCA000807436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29C89851A25BCA000807436 /* YMCityPicker.app */,
+				B29C899E1A25BCA000807436 /* YMCityPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29C89871A25BCA000807436 /* YMCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B29C89B11A25C67C00807436 /* zh_CN.json */,
+				B29C898C1A25BCA000807436 /* AppDelegate.h */,
+				B29C898D1A25BCA000807436 /* AppDelegate.m */,
+				B29C898F1A25BCA000807436 /* ViewController.h */,
+				B29C89901A25BCA000807436 /* ViewController.m */,
+				B29C89921A25BCA000807436 /* Main.storyboard */,
+				B29C89951A25BCA000807436 /* Images.xcassets */,
+				B29C89971A25BCA000807436 /* LaunchScreen.xib */,
+				B29C89881A25BCA000807436 /* Supporting Files */,
+				B29C89AE1A25BD4E00807436 /* YMUtils.h */,
+				B29C89AF1A25BD4E00807436 /* YMUtils.m */,
+			);
+			path = YMCityPicker;
+			sourceTree = "<group>";
+		};
+		B29C89881A25BCA000807436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29C89891A25BCA000807436 /* Info.plist */,
+				B29C898A1A25BCA000807436 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B29C89A11A25BCA000807436 /* YMCityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B29C89A41A25BCA000807436 /* YMCityPickerTests.m */,
+				B29C89A21A25BCA000807436 /* Supporting Files */,
+			);
+			path = YMCityPickerTests;
+			sourceTree = "<group>";
+		};
+		B29C89A21A25BCA000807436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29C89A31A25BCA000807436 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29C89841A25BCA000807436 /* YMCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29C89A81A25BCA000807436 /* Build configuration list for PBXNativeTarget "YMCityPicker" */;
+			buildPhases = (
+				B29C89811A25BCA000807436 /* Sources */,
+				B29C89821A25BCA000807436 /* Frameworks */,
+				B29C89831A25BCA000807436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMCityPicker;
+			productName = YMCityPicker;
+			productReference = B29C89851A25BCA000807436 /* YMCityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B29C899D1A25BCA000807436 /* YMCityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29C89AB1A25BCA000807436 /* Build configuration list for PBXNativeTarget "YMCityPickerTests" */;
+			buildPhases = (
+				B29C899A1A25BCA000807436 /* Sources */,
+				B29C899B1A25BCA000807436 /* Frameworks */,
+				B29C899C1A25BCA000807436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29C89A01A25BCA000807436 /* PBXTargetDependency */,
+			);
+			name = YMCityPickerTests;
+			productName = YMCityPickerTests;
+			productReference = B29C899E1A25BCA000807436 /* YMCityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29C897D1A25BCA000807436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CMCM;
+				TargetAttributes = {
+					B29C89841A25BCA000807436 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B29C899D1A25BCA000807436 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B29C89841A25BCA000807436;
+					};
+				};
+			};
+			buildConfigurationList = B29C89801A25BCA000807436 /* Build configuration list for PBXProject "YMCityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B29C897C1A25BCA000807436;
+			productRefGroup = B29C89861A25BCA000807436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29C89841A25BCA000807436 /* YMCityPicker */,
+				B29C899D1A25BCA000807436 /* YMCityPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29C89831A25BCA000807436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C89B21A25C67C00807436 /* zh_CN.json in Resources */,
+				B29C89941A25BCA000807436 /* Main.storyboard in Resources */,
+				B29C89991A25BCA000807436 /* LaunchScreen.xib in Resources */,
+				B29C89961A25BCA000807436 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C899C1A25BCA000807436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29C89811A25BCA000807436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C89911A25BCA000807436 /* ViewController.m in Sources */,
+				B29C898E1A25BCA000807436 /* AppDelegate.m in Sources */,
+				B29C898B1A25BCA000807436 /* main.m in Sources */,
+				B29C89B01A25BD4E00807436 /* YMUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C899A1A25BCA000807436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C89A51A25BCA000807436 /* YMCityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29C89A01A25BCA000807436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29C89841A25BCA000807436 /* YMCityPicker */;
+			targetProxy = B29C899F1A25BCA000807436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B29C89921A25BCA000807436 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29C89931A25BCA000807436 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B29C89971A25BCA000807436 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29C89981A25BCA000807436 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29C89A61A25BCA000807436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B29C89A71A25BCA000807436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29C89A91A25BCA000807436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMCityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B29C89AA1A25BCA000807436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMCityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B29C89AC1A25BCA000807436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMCityPicker.app/YMCityPicker";
+			};
+			name = Debug;
+		};
+		B29C89AD1A25BCA000807436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMCityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMCityPicker.app/YMCityPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29C89801A25BCA000807436 /* Build configuration list for PBXProject "YMCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C89A61A25BCA000807436 /* Debug */,
+				B29C89A71A25BCA000807436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29C89A81A25BCA000807436 /* Build configuration list for PBXNativeTarget "YMCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C89A91A25BCA000807436 /* Debug */,
+				B29C89AA1A25BCA000807436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29C89AB1A25BCA000807436 /* Build configuration list for PBXNativeTarget "YMCityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C89AC1A25BCA000807436 /* Debug */,
+				B29C89AD1A25BCA000807436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29C897D1A25BCA000807436 /* Project object */;
+}
